@@ -17,18 +17,14 @@ Rails.application.routes.draw do
   # Do NOT uncomment more than one at a time, or you'll be dealing with multiple syntax errors at once.
 
   get("/zodiacs/aries", { :controller =>  "fires", :action =>  "ram" })
-
   get("/zodiacs/leo", { :controller => "fires", :action => "lion" })
-  
   get("/zodiacs/sagittarius", { :controller => "fires", :action => "archer" })
   
   get("/zodiacs/taurus", { :controller => "earth", :action => "bull" })
-  
   get("/zodiacs/virgo", { :controller => "earth", :action => "maiden" })
-  
   get("/zodiacs/capricorn", { :controller => "earth", :action => "goat" })
   
-  # get("/zodiacs/gemini", { :controller => "air", :action => "twins" })
+  get("/zodiacs/gemini", { :controller => "air", :action => "twins" })
   # get(" /zodiacs/libra", { :controller => "air", :action => "scales" })
   # get ("/zodiacs/aquarius", { :controller => "air", :action => "waterbearer" })
   
